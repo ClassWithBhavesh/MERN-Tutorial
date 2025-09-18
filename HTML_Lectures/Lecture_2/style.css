@@ -1,0 +1,62 @@
+/* CSS Selectors */
+
+/* element Selector */
+/* div{
+    color: white;
+}
+
+span{
+    font-weight: 900;
+    font-size: 1rem;
+} */
+
+
+/* grouping / Combinator Selector */
+/* div{
+    background-color: black;
+}
+span{
+    background-color: black;
+}
+p{
+    background-color: black;
+} */
+
+/* div, span, p{
+    background-color: black;
+    color: white;
+} */
+
+
+/* class Selector */
+/* div{
+    background-color: rgb(193, 193, 35);
+}
+
+.third-ele{
+    background-color: pink;
+} */
+
+
+/* Id Selector - provide unique identity */
+
+/* #secondEle{
+    background-color: darkcyan;
+} */
+
+
+/* universal selector */
+/* *{
+    background-color: black;
+    color: white;
+} */
+
+
+/* #secondEle{
+    background-color: orange;
+} */
+
+/* .third-ele{
+    background-color: green;
+} */
+
