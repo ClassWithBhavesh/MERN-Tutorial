@@ -1,0 +1,118 @@
+/* CSS Selectors */
+/* Simple Selectors */
+
+/* Combinator Selectors */
+
+
+/* 1. Child Selector - '>' */
+
+/* div>p{
+    background-color: orange;
+} */
+
+/* body>p{
+    background-color: orange;
+} */
+
+
+
+/* 2. Descendant Selectors - ' ' */
+
+/* div p{
+    background-color: darkmagenta;
+} */
+
+
+/* 3. Next sibling selectors - '+' */
+
+/* div + p{
+    background-color: black;
+    color: green;
+} */
+
+/* 4. subsequent-sibling selectors - '~' */
+
+/* div ~ p{
+    background-color: black;
+    color: green;
+} */
+
+
+
+
+
+/* pseudo Class Selectors - link, active, hover, visited & focus */
+
+/* .anchorTag:link{
+    color: green;
+}
+
+.anchorTag:hover{
+    color: red;
+}
+
+.anchorTag:active{
+    color: yellow;
+}
+
+a:visited{
+    color: bisque;
+    background-color: black;
+} */
+
+
+
+
+/* Pseudo Element selectors - we will cover this after transform and transition properties */
+
+
+/* Attribute Selectors -  */
+
+/* a[class~="linkBtn"]{
+    color: green;
+} */
+
+
+
+
+
+/* Background Properties */
+/* bg-color */
+/* bg-image */
+
+/* .cont{
+    width: 50vw;
+    height: 90vh;
+    background-color: darkkhaki;
+    background-image: url(https://dcodegurukul.com/wp-content/uploads/2025/08/DCG-Website-Course-Banner.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    overflow:scroll;
+    background-position: center;
+    background-attachment: scroll;
+} */
+
+
+
+
+
+
+
+/* Display Properties - block | inline | inline-block | flex | grid */
+
+div{
+    width: 45vw;
+    height: 50vh;
+    background-color: darkcyan;
+    /* display: inline; */
+    display: inline-block;
+}
+
+span{
+    width: 45vw;
+    height: 50vh;
+    background-color: darkcyan;
+    /* display: block; */
+    display: inline-block;
+}
+
