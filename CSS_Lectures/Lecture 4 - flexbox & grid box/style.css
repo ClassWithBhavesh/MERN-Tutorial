@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FlexBox CSS - flex-direction | justify-content | align-items | align-content | flex-wrap */
+.parCont{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; /* row | row-reverse | column | column-reverse */
+    justify-content: center; /* center | flex-start | flex-end | space-betwen | space-around | space-evenly */ 
+    align-items: flex-end; /* center | flex-start | flex-end */
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.box{
+    width: 120px;
+    height: 90px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+/* Grid Boxes CSS - grid-template-columns | grid-template-rows | column-gap | row-gap | gap */
+
+/* .parCont{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 100px;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    column-gap: 50px;
+    gap: 10px 30px;
+} */
+
+/* .box{
+    background-color: bisque;
+    border: 1px solid black;
+} */
+
+/* .box1{
+    background-color: bisque;
+}
+.box2{
+    background-color: bisque;
+}
+.box3{
+    background-color: bisque;
+}
+.box4{
+    background-color: bisque;
+}
+.box5{
+    background-color: bisque;
+}
+.box6{
+    background-color: bisque;
+} */
