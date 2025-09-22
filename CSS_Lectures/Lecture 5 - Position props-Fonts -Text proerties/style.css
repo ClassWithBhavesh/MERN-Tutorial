@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+}
+
+.mainContainer {
+  width: 50%;
+  height: 90%;
+  background-color: darkgoldenrod;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer p {
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+}
+
+/* position props - static | sticky | fixed | relative | absolute */
+
+.box1 {
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.box2 {
+  background-color: green;
+  position: relative;
+  top: 100px;
+}
+
+/* font | text CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: aqua;
+  /* font-family: "Bitcount Prop Double Ink", system-ui; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 60px;
+  /* text-align: right; */
+  /* text-decoration: underline orange double; */
+  text-transform: uppercase;
+}
+
