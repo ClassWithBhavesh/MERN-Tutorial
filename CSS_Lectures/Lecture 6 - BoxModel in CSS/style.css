@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Box-Model CSS */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divEle{
+    width: 50vw;
+    height: 50vh;
+}
+
+.box1{
+    background-color: rgb(108, 6, 108);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px 20px black;
+    /* margin: 20px; */
+    padding: 20px;
+    /* border: 10px dotted white; */
+    /* margin: 100px; */
+    /* margin: 50px 10px 30px 25px; */
+    /* margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 80px;
+    margin-bottom: 90px; */
+    /* border: 10px solid orange; */ /* shortend prop - shot cut method */
+    /* width: 150px;
+    height: 150px; */
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: green; */
+    /* border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 50px 10px 50px 80px; */
+    /* border-radius: 50%; */
+    /* padding: 40px; */
+    /* text-align: center;
+    align-content: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .box2{
+    background-color: darkblue;
+} */
+
+nav{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    /* margin-right: 20px; */
+    list-style: none;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -25px -25px 20px black;
+}
