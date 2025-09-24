@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parCont{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(49, 0, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childCont{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(170, 170, 170);
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    /* transition-property: transform;
+    transition-duration: 2s; */
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease-in-out; */
+    perspective: 500px;
+}
+
+.grandChild{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(72, 183, 247, 0.404);
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    transition-property: transform;
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    transition-timing-function: ease-in-out;
+    /* transform-origin: right; */
+}
+
+/* transform - scale() | skew() | rotate() | translate()*/
+.grandChild:hover{
+    /* transform: scale(2, 3); */   /* scaleX | scaleY | scale() */
+    /* transform: skew(10deg, 20deg); */   /* skewX | skewY | skew() */
+    transform: rotateY(360deg);   /* rotateX | rotateY | rotate() */
+    /* transform: translate(100px, -100px); */   /* trasnlateX | trasnlateY | trasnlate() */
+}
+
+
