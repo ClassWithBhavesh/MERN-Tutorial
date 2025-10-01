@@ -1,0 +1,27 @@
+// Programming Lanaguage Concepts
+// BASIC JS -
+// 1. Variable 
+// 2. Data-Types
+// 3. operators in JS
+// 4. conditional statements (if | else if | else)
+// 5. control flow statements (for | while | do-while | for-of | fon-in | forEach)
+// 6. nested for loop
+// 7. functions in JS
+// 8. Array | Objects | Strings
+// 9. Events in  JS
+// 10. DOM Manipulation (Document Object Model)
+
+
+
+
+// Ad. JS -
+// let | var | const 
+// What is Hoisiting
+// fat-arrow functions & Template literals
+// Rest & Spread Operators
+// De-Structuring of Array and Object
+// Promises in JS
+// Fetch in JS
+// async and synchronous JS
+// async & await keywords
+// Error handling - try | catch
