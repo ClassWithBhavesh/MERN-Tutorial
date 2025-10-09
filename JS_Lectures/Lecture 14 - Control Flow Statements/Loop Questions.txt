@@ -1,0 +1,26 @@
+-- Write a JS code to display sum off all natural numbers. 
+
+-- Write a JS code to display sum off all even numbers from 1 to 100. (also code this question for negative integer)
+
+-- Write a JS code to display sum off all odd numbers from 1 to 100. (also code this question for negative integer)
+	
+-- Write a JS code to find the power of a number using for loop.(try this question using loops and functions)
+
+-- Write a JS code to find the sign of the product of three numbers. Display an alert box with the specified sign.
+
+-- Write a JS code to print a Fibonacci Sequence Up to a Certain Number. 
+
+-- Write a JS code to find N value in the Fibonacci series for a given number. (input should be taken by prompt)
+
+-- Using a for loop print all even numbers up to and including n. (input should be taken by prompt)
+
+-- Given a number n Calculate the factorial of the number. (input should be taken by prompt)
+
+-- Write JS Function to find the sign of the given numbers. (input should be taken by prompt)
+
+-- Write JS Function to find the sign of the product of three numbers. (input should be taken by prompt)
+
+-- Write a JS code using any loop to print all the positive integers from 1 to 100. If a number is multiple of 3, 5, 7 then a msg of multiple will be shown just next to the number.
+
+-- Write a JS function that accepts an argument and returns the data type. (input should be taken by prompt)
+
