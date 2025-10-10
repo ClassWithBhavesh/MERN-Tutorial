@@ -51,3 +51,23 @@
 // for(let num = 10; num >= 1; num--){
 //     console.log(num);
 // }
+
+
+
+
+
+
+
+
+
+
+
+// Nested For Loops : it is widely used to work on matrixes, 2-D or more dim arrays or the tabular data
+
+for(let row = 1; row <= 100; row += 10){
+    for(let col = row; col < row + 10; col++){
+        document.write(col + "&nbsp;&nbsp;&nbsp;");
+    }
+    document.write("<br>");
+}
+
